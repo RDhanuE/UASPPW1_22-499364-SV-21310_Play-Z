@@ -1,0 +1,78 @@
+body{
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 40px;
+}
+
+.Login{
+    width: 388.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 75px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+form{
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input{
+    color: white;
+    border: none;
+    background-color: inherit;
+    border-bottom: 3px solid #24294E;
+    width: 100%;
+}
+
+
+input:focus{
+    border: none;
+    width: 100%;
+}
+
+button{
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4e3c70ac;
+}
+
+a:hover{
+    color: #4E3C70;
+}

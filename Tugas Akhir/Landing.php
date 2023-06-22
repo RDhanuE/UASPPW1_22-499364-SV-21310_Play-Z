@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Welcome to Play-Z!</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/Landing.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-links">
+            <a href="Landing.php">
+                <img src="Assets/Home Icon.png" alt="Home">
+            </a>
+            <a href="Main.php">
+                <img src="Assets/List.png" alt="List of Game">
+            </a>
+            <a href="#!" onclick="alert('In Progress')">
+                <img src="Assets/FAQs.png" alt="FAQs">
+            </a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#aboutUsModal">
+                <img src="Assets/Info.png" alt="Info">
+            </a>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <a href="Landing.php">
+            <img src="Assets/Home Icon.png" alt="Home">
+        </a>
+        <a href="Main.php">
+            <img src="Assets/List.png" alt="List of Game">
+        </a>
+        <a href="#!" onclick="alert('In Progress')">
+            <img src="Assets/FAQs.png" alt="FAQs">
+        </a>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#aboutUsModal">
+            <img src="Assets/Info.png" alt="Info">
+        </a>
+    </div>
+    
+    <div class="main">
+        <div class="container-column">
+
+            <h1>ALL ABOUT GAME</h1>
+            <h4>Looking for your favorite game ?<br>We got you covered.<br>Discover what you looking for in their best price!</h4>
+            
+        </div>
+        <div class="container-row">
+            <a href="Main.php" class="btn">SHOP NOW</a>
+            <a href="Sign_Up.php" class="btn">SIGN UP</a>
+        </div>
+    </div>
+    <div class="modal fade" id="aboutUsModal" tabindex="-1" role="dialog" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutUsModalLabel">About Us</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Play-Z is an exciting online gaming platform where you can immerse yourself in a world of thrilling games. Whether you're a casual gamer or a dedicated enthusiast, Play-Z offers a wide range of games for you to browse, explore, and purchase.
+                    </p>
+                    <p>
+                        At Play-Z, we understand your passion for gaming, and we strive to provide you with an exceptional experience. Our user-friendly interface allows you to effortlessly navigate through our extensive collection of games, conveniently categorized by genre, platform, and popularity.    
+                    </p>
+                    <p>
+                        Not only can you browse and discover games on Play-Z, but you can also purchase them directly from our platform. We've partnered with reputable game developers and publishers to offer you a seamless buying experience. With just a few clicks, you can add your favorite games to your virtual shopping cart and proceed to a secure checkout process.
+                    </p>
+                    <p>    
+                        Experience the joy of gaming with Play-Z. Whether you're looking to embark on epic quests, engage in fierce competitions, or simply unwind with a captivating storyline, Play-Z is your go-to destination for all your gaming needs. Explore, discover, and embrace the world of gaming with Play-Z today!
+                    </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.js"></script>
+</body>
+</html>
